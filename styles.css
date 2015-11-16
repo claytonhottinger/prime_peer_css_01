@@ -31,3 +31,73 @@
  */
 
  /* Submit your repo URL to http://goo.gl/forms/bIxNbG1gcG. */
+
+header>h1 {
+  font-family:monospace;
+}
+
+body{
+  background-color: #FFFF99;
+  margin: 0 5%;
+}
+
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #000000;
+ }
+
+nav>ul>li {
+  float: left;
+}
+
+nav>ul>li>a {
+  display: block;
+  padding: 20px 5px 20px 5px;
+  margin: 5px 0 5px 15px;
+  font-style: italic;
+  font-size: 20px;
+  color: #CC3333;
+}
+
+aside {
+  float: right;
+  padding: 0 10px 190px 10px;
+  border-radius: 30px;
+  background-color: #41D146;
+  width:15%;
+  overflow: auto;
+}
+
+main {
+  float: left;
+  width: 75%;
+  background-color: #ADDDED;
+  padding: 0 20px;
+  border-radius: 30px;
+}
+
+section {
+  font-style: italic;
+}
+
+footer {
+  margin: 300px 0 0 0;
+}
+
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
